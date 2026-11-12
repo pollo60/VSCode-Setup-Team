@@ -1,0 +1,53 @@
+{
+  "workbench.colorTheme": "Dark Modern",
+  "code-runner.runInTerminal": true,
+  "cmake.configureOnOpen": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "database-client.autoSync": true,
+  "git.ignoreRebaseWarning": true,
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "terminal.integrated.automationProfile.osx": {
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.inlineSuggest.edits.allowCodeShifting": "never",
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "lldb.suppressUpdateNotifications": true,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "workbench.iconTheme": "office-material-icon-theme",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "chat.agent.maxRequests": 999999999999999,
+  "remoteHub.commitDirectlyWarning": "off",
+  "editor.largeFileOptimizations": false,
+  "redhat.telemetry.enabled": false,
+  "git.openRepositoryInParentFolders": "always",
+  "files.autoSave": "afterDelay",
+  "yaml.disableSchemaDetection": [
+    "**/.github/workflows/*.yml",
+    "**/.github/workflows/*.yaml",
+    "**/.gitea/workflows/*.yml",
+    "**/.gitea/workflows/*.yaml",
+    "**/.forgejo/workflows/*.yml",
+    "**/.forgejo/workflows/*.yaml"
+  ],
+  "google.cloud.region": "europe-west1",
+  "jupyter.jupyterLaunchTimeout": 300000,
+  "workbench.settings.applyToAllProfiles": [
+    "chat.sessionSync.enabled",
+    "github.copilot.chat.localIndex.enabled"
+  ],
+  "chat.sessionSync.enabled": true,
+  "python.analysis.exclude": [
+    ""
+  ],
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "launchpad:command"
+  ],
+  "chat.viewSessions.orientation": "stacked"
+}

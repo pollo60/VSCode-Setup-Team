@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "adobeRunWorkflow": {
+      "type": "http",
+      "url": "https://run-workflow.adobe.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ADOBE_IMS_TOKEN}",
+        "x-api-key": "${ADOBE_RUN_WORKFLOW_API_KEY}"
+      },
+      "tools": ["*"]
+    }
+  }
+}
