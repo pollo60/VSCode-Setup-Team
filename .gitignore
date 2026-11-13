@@ -1,6 +1,7 @@
 *
 !/.gitignore
 !/README.md
+!/AGENTS.md
 !/wiederherstellen.sh
 !/vscode/
 !/vscode/settings.json
@@ -23,5 +24,10 @@
 !/.github/agents/medienproduktion.agent.md
 !/studio-lokal/
 !/studio-lokal/hardware-check.sh
+!/studio-lokal/model-inventory.py
 !/tests/
 !/tests/test_wiederherstellen.py
+!/tests/test_tunnel_watchdog.py
+!/tests/test_model_inventory.py
+!/tunnel/
+!/tunnel/watchdog.py
